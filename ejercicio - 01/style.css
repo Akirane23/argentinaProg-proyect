@@ -1,0 +1,82 @@
+body{
+    position: relative;
+    display: list-item;
+    background-image: linear-gradient(rgba(187, 67, 111, 0.824) 25%,#d079a5 51%,#973ccc 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    font-family:'Noto Sans', sans-serif;
+    font-weight: 500;
+}
+h4{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+}
+label, input, option{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+p{ 
+    font-family:'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+}
+select{
+    border-radius: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+.enviar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 35px;
+    padding: 6px 40px 6px 40px;
+    border-radius: 15px;
+    background-color: #973ccc;
+    color: whitesmoke;
+}
+.formulario{
+    background-color: whitesmoke;
+    border-color: black;
+    border-radius: 15px;
+    border-style: solid;
+    height: 560px;
+    width: 520px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    top: 35px;
+}
+
+.derechos {
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 100px;
+    align-items: center;
+}
+
+.container{ 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inp-info{
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.seleccionable{
+    color: black;
+    font-family:'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+}
